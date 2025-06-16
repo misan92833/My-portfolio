@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.top-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px; /* or any height */
+  background-color: rgb(212, 145, 21); /* customize color */
+  z-index: 9999
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+img{
+    display: block;
+    width: 100%;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+html, body {
+  overflow-x: hidden;
+}
+ 
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100%;
+    font-size: 1.256em;
+}
+nav{
+    background-color: orange;
+    color: black;
+}
+nav .new form button {
+    border: 1px solid black;
+}
+nav .new #navbarCollapse ul li:hover{
+    background-color: rgb(208, 144, 26);
+    border-radius: 100%;
+    padding-inline: 5px;
+}
+header{
+    width: 100%;
+    margin-top: 150px;
+    height: auto;
+}
+
+.first-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+    padding-bottom: 80px;
+    gap: 20px;
+}
+.text1{
+    font-size: .5em;
+    margin: 0;
+    line-height: 1;
+    color: rgb(114, 111, 111);
+}
+.text{
+    font-size: 3.7em;
+    line-height: 1em;
+
+}
+h1 span:nth-of-type(2) {
+    color: orange;
+    font-weight: bold;
+}
+.header-last-text{
+    font-size: small;
+    margin-top: 20px;
+    color: rgb(114, 111, 111);
+
+}
+
+.image{
+    width: 450px;
+    height: 450px;
+    border-radius: 100%;
+}
+
+.checklist li::before{
+    content: "✓";
+    padding: 5px;
+    color: orange;
+}
+main .first-section{
+    background-color: rgb(209, 202, 202);
+    padding-top: 5em;
+    padding-inline: 1em;
+
+}
+.parent-container{
+    width: 600px;
+}
+
+main{
+    margin-top: 30px;
+    
+}
+main .first-section .box{
+    flex: 1 1 400px;
+}
+.container .main-content p{
+    margin-top: 15px;
+}
+.container .main-content ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0;
+    margin-top: 20px;
+    max-width: fit-content;
+}
+.main-container{
+    background-color: rgb(184, 178, 178);
+    padding: 2em;
+
+}
+.checklist{
+    padding: 0;
+}
+.checklist li{
+    font-size: .87em;
+}
+.first-section .main-content h2{
+    font-weight: bold;
+}
+#service{
+    margin-top: 80px ;
+    margin-bottom: 120px;
+}
+.service-heading{
+    flex: 1;
+    padding: 100px 0px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+    color: rgb(209, 202, 202);
+}
+.flex-box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+.flex-box .box:hover{
+    background-color: rgb(150, 146, 146);
+}
+.flex-box .box a{
+    text-decoration: none;
+    color: black;
+}
+#service .flex-box .box svg{
+    color:orange;
+    padding: 15px;
+    border-radius: 10%;
+    background-color: rgb(222, 216, 216);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#service .flex-box h3{
+    font-size: .9em;
+    font-weight: bold;
+}
+#service .flex-box p{
+    line-height: 1.5;
+    font-size: .8em;
+}
+.box{
+    padding: 50px 10px;
+    background-color: rgb(209, 202, 202);
+
+}
+
+section .section-container{
+    background-color: rgb(209, 202, 202) ;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10%;
+    text-align: center;
+    
+    
+}
+.section-container > p:first-child{
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+    width: fit-content;
+    max-width: 600px;
+    margin: auto;
+    padding: 5px;
+    font-size: .9em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+section .section-container h3{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+.client-profile{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 50px;
+}
+.review img{
+    width: 43px;
+    height: 42px;
+    border-radius: 50%;
+}
+.contact-info{
+    margin-inline: 12px;
+    background-color: rgb(34, 32, 32);
+    border-radius: 20px 20px 20px 20px;
+    color: white;
+} 
+
+.contact-info .second-section{
+    margin-top: 100px;
+    padding: 10%;
+    text-align: center;
+ 
+}
+.contact-info .second-section h3{
+    font-size: 3em;
+    font-weight: bold;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.contact-info .second-section p{
+    max-width: 600px;
+    margin: auto;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+}
+.contact-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px 0px 20px 0px;
+}
+.last-form{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+
+}
+.contact-log form input{
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border:1px solid rgb(63, 62, 62);
+    padding-left: 10px;
+}
+.contact-log{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+label{
+    margin-bottom: 10px;
+}
+select{
+    padding-left: 10px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    border:1px solid rgb(63, 62, 62);
+
+}
+.last-searchbox{
+    grid-column: 1 / -1;
+}
+.contact .contact-log form textarea{
+    background-color: black;
+    border:1px solid rgb(63, 62, 62);
+    color: white;
+
+}
+.first-contact{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    
+
+}
+.contact .contact-log form button{
+    margin-top: 30px;
+    width: fit-content;
+    padding: 15px;
+    padding-inline: 20px;
+    background-color: orange;
+    border-radius: 30px 30px 30px 30px;
+    color: white;
+    font-size: 0.9em;
+}
+.contact .first-contact p{
+    margin-top: 20px;
+    
+}
+.contact .first-contact p > span{
+    font-size: 0.9em;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.container footer div a p {
+    font-size: 1.5em;
+}
+.container footer div ul{
+    margin-top: 25px;
+}
+div .list-unstyled li svg:hover{
+    color: orange;
+
+}
+@media screen and (max-width:1000px){
+    .image{
+        width: 350px;
+        height: 350px;
+        border-radius: 100%;
+        margin-top: 20px ;
+    }
+    nav div form{
+        margin: 10px;
+    }
+    header{
+        margin-top:100px;
+    }
+    main .first-section{
+        flex-wrap: wrap;
+
+    }
+    header .first-section{
+        flex-wrap: wrap;
+    }
+    .flex-box{
+        flex-wrap: wrap;
+    }
+
+    .contact-info .second-section h3{
+        font-size: 2.5em;
+    }
+    .contact-info .second-section h3 p{
+        font-size: 1em;
+    }
+    .contact .first-contact img{
+        width: 300px;
+        height: 370px;
+    }
+    
+    .contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+   
+    }
+    
+}
+@media screen and (max-width: 37.5em){
+    .contact-log{
+        display: block;
+    }
+    .contact-log form label {
+        margin: 0;
+        margin-top: 20px;
+    }
+  
+}
